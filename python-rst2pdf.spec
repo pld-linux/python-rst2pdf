@@ -1,7 +1,8 @@
+# NOTE: for versions >= 0.98 (for python 3.6+) see python3-rst2pdf.spec
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-rst2pdf.spec)
 
 Summary:	Convert reStructured Text to PDF via ReportLab
 Summary(pl.UTF-8):	Konwersja formatu reStructured Text do PDF przy użyciu ReportLaba
