@@ -9,7 +9,7 @@ Summary(pl.UTF-8):	Konwersja formatu reStructured Text do PDF przy użyciu Repor
 Name:		python-rst2pdf
 # keep 0.97 here for python2 support
 Version:	0.97
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/rst2pdf/
